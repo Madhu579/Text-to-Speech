@@ -1,0 +1,45 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #120656;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    
+}
+form{
+    border: 2px solid rgba(185, 174, 174, 0.187);
+    background-color: #b7a7a763;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px;
+    padding: 50px;
+    box-shadow: 2px 3px 3px grey;
+}
+form input{
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    
+}
+
+form button:hover{
+    color: blue;
+}
+select {
+    width: 100%;
+    margin-top: 2px;
+    padding: 5px;
+}
+form button{
+    margin: auto;
+    width: 200px;
+    padding: 3px;
+}
